@@ -1,5 +1,5 @@
-betterCreateivInventory.loader={}
-betterCreateivInventory.loader.map={
+betterCreativeInventory.loader={}
+betterCreativeInventory.loader.map={
 	lumps_ingots = {
 		'default:iron_lump',
 		'default:steel_ingot',
@@ -272,7 +272,7 @@ betterCreateivInventory.loader.map={
 	},
 }
 
-betterCreateivInventory.category.move = {
+betterCreativeInventory.category.move = {
 	{"buildtest", "Industrial"},
 	{"itest", "Industrial"},
 	{"morechests", "Decor"},

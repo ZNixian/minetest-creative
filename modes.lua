@@ -72,7 +72,7 @@ end
 
 betterCreativeInventory.loadSettingsFromFile=function(filename, conn)
 --	local modpath = minetest.get_modpath("createiveinv")
-	dofile(minetest.get_modpath("createiveinv")..filename)
+	dofile(minetest.get_modpath("creativeinv")..filename)
 	for name, val in pairs(betterCreativeInventory.loader.map) do
 		for i=1,#val do
 			conn[val[i]] = name

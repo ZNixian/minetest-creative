@@ -1,4 +1,4 @@
-betterCreateiveInventory.loadSettingsFromFile = function()
+betterCreativeInventory.loadSettingsFromFile = function()
 	local worldpath = minetest.get_worldpath()
 	local buffer = ""
 	
